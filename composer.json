@@ -2,6 +2,7 @@
     "name": "senyzy/yii2-ttshop-event",
     "description": "A event dispatcher for plugin system, make event mounting / dispatching easily.",
     "type": "library",
+    "license": "MIT",
     "require": {
         "php": ">=7.2",
         "yiisoft/yii2": "^2.0",
