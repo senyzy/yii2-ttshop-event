@@ -2,20 +2,19 @@
     "name": "senyzy/yii2-ttshop-event",
     "description": "A event dispatcher for plugin system, make event mounting / dispatching easily.",
     "type": "library",
-    "license": "MIT",
-    "minimum-stability": "dev",
-    "prefer-stable": true,
     "require": {
-        "php": ">=5.4",
-        "yiisoft/yii2": "^2.0",
-        "evenement/evenement": "^3.0"
+        "php": ">=7.0",
+        "evenement/evenement": "^3.0",
+        "yiisoft/yii2": "^2.0"
     },
+    "license": "MIT",
     "authors": [
         {
             "name": "senyzy",
             "email": "senyzy@foxmail.com"
         }
     ],
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "Ttshop\\Event\\": "lib/"
